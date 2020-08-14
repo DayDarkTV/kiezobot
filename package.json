@@ -1,0 +1,14 @@
+{
+  "name": "kiezogit",
+  "version": "1.0.0",
+  "description": "A bot by Day for Kie",
+  "main": "bot.js",
+  "scripts": {
+    "test": "."
+  },
+  "author": "Day",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
