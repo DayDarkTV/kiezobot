@@ -12,11 +12,7 @@ client.on("ready", () => {
         .catch(console.error);
 });
   
-var tokenFile = "token.txt";
-fs.readFile(tokenFile, "utf8", (err, data) => {
-      if (err) console.log(err);
-      client.login(data);
-});
+client.login(process.env.BOT_TOKEN);
 
 client.on('message', function(message) {
     if (!message.content.startsWith(prefix) || message.author.bot) return;
