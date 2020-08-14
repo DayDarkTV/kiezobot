@@ -4,7 +4,8 @@
   "description": "A bot by Day for Kie",
   "main": "bot.js",
   "scripts": {
-    "test": "."
+    "test": ".",
+	"start": "."
   },
   "author": "Day",
   "license": "ISC",
