@@ -5,7 +5,7 @@
   "main": "bot.js",
   "scripts": {
     "test": ".",
-	"start": "."
+	"start": "node ."
   },
   "author": "Day",
   "license": "ISC",
